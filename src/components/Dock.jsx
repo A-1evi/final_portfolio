@@ -60,7 +60,7 @@ const Dock = () => {
     <section id="dock">
       <div ref={dockRef} className="dock-container">
         {dockApps.map(({ id, name, icon, canOpen }) => (
-          <div key={id} className="relavtive flex justify-center">
+          <div key={id} className="relative flex justify-center">
             <button
               type="button"
               className="dock-icon"
